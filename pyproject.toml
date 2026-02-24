@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bio-toolkit"
+version = "0.2.0"
+description = "Pure-Python bioinformatics toolkit: FASTA/FASTQ/VCF utilities, ORF finder, and simple alignment."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="Ali Shakeri Abroudi"}]
+keywords = ["bioinformatics", "fasta", "fastq", "vcf", "alignment"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.5", "black>=24.0"]
+
+[project.scripts]
+bio-toolkit = "bio_toolkit.cli:main"
+
+[tool.setuptools]
+packages = ["bio_toolkit"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E","F","I","B","UP","SIM"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
