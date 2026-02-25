@@ -2,6 +2,11 @@
 
 A small, dependency-free bioinformatics toolkit in **pure Python**.
 
+## Software DOI (Zenodo)
+
+- **Cite all versions (Concept DOI):** https://doi.org/10.5281/zenodo.18772557  
+- **This release (v0.1.0, Version DOI):** https://doi.org/10.5281/zenodo.18772558
+
 ## Install
 ```bash
 python -m pip install .
