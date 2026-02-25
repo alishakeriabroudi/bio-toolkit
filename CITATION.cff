@@ -1,11 +1,26 @@
+# CITATION.cff (bio-toolkit) — paste as a full file
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this repository, please cite the software."
 title: "bio-toolkit"
-version: "0.2.0"
 authors:
-  - family-names: "Shakeri Abroudi"
-    given-names: "Ali"
-license: "MIT"
+  - family-names: "Abroudi"
+    given-names: "Ali Shakeri"
 repository-code: "https://github.com/alishakeriabroudi/bio-toolkit"
-
+doi: "10.5281/zenodo.18772557"
+license: "MIT"
+version: "0.1.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18772558"
+    description: "Version DOI for release v0.1.0"
+preferred-citation:
+  type: software
+  title: "bio-toolkit"
+  authors:
+    - family-names: "Abroudi"
+      given-names: "Ali Shakeri"
+  version: "0.1.0"
+  doi: "10.5281/zenodo.18772558"
+  url: "https://github.com/alishakeriabroudi/bio-toolkit"
+  year: 2026
 
